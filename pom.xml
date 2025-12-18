@@ -116,6 +116,11 @@
                 <configuration>
                     <relocations>
                         <relocation>
+                            <pattern>org.bukkit</pattern>
+                            <shadedPattern>dev.j3fftw.litexpansion.bukkit</shadedPattern>
+                        </relocation>
+
+                        <relocation>
                             <pattern>org.bstats</pattern>
                             <shadedPattern>dev.j3fftw.litexpansion.bstats</shadedPattern>
                         </relocation>
